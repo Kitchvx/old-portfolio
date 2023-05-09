@@ -119,7 +119,7 @@ params:
     title: "Nathan."
     subtitle: "IT Technician and Web Developer."
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/me.PNG
+    image: /images/me.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -143,7 +143,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.PNG"
+    image: "/images/me.png"
     content: |-
       I am a 18 year old tech enthusiast, I am very passionate about technology. I love using different kinds of Linux operating systems such as [Arch Linux](https://archlinux.org/) and [Ubuntu](https://ubuntu.com/), In my spare time away from college and work I like to develop my skills by setting myself goals to achieve such as complex projects and general online courses that offer certificates.
 
@@ -271,6 +271,21 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/Kitchvx/hugo
+        
+      - title: Login Form
+        content: A simple, modern and minimalist login form.
+        image:
+        featured:
+          name: View Project
+          link: "#"
+        badges:
+          - "Web Development"
+          - "HTML"
+          - "CSS"
+          - "JavaScript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Kitchvx/login-form
 
   #Contact
   contact:
