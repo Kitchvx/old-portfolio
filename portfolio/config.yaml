@@ -145,9 +145,9 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a 18 year old tech enthusiast, I am very passionate about technology. I love using different kinds of Linux operating systems such as [Arch Linux](https://archlinux.org/) and [Ubuntu](https://ubuntu.com/), In my spare time away from college and work I like to develop my skills by setting myself goals to achieve such as complex projects and general online courses that offer certificates.
+      I am a tech enthusiast, I am very passionate about technology. I love using different kinds of Linux operating systems such as [Arch Linux](https://archlinux.org/) and [Ubuntu](https://ubuntu.com/), In my spare time away from college and work I like to develop my skills by setting myself goals to achieve such as complex projects and general online courses that offer certificates.
 
-      I would love to get into Cybersecurity, this is the current goal I am working towards.
+      I would love to get into Cybersecurity, this is the current goal I am working towards and I am currently in an apprenticeship working towards achieving this goal of mine.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -167,23 +167,23 @@ params:
         companyUrl: "https://www.smoothvapourz.co.uk"
         date: "March 2023 - present"
         featuredLink:
-          enable: false
+          enable: true
           name: "View the project"
-          url: "https://www.smoothvapourz.co.uk"
+          url: "https://www.staging7.smoothvapourz.co.uk"
         content: "In the shop I have 3 roles, stock checking, building and maintaining the website, using WordPress and related extensions like WooCommerce. I have also been tasked with setting up an EPOS system to synergise with the stock when orders are placed online and when products are bought in shop."
 
-      #- job: "Software Developer"
-      #  company: "Amazon"
-      #  companyUrl: "https://example.com"
-      #  date: "Sep 2020 - Dec 2021"
+      - job: "Modern Apprentice"
+        company: "NEC Software Solutions UK"
+        companyUrl: "https://www.necsws.com/"
+        date: "July 2023 - present"
       #  featuredLink:
       #    enable: true
       #    url: "https://example.com"
-      #  info:
-      #    enable: true
-      #    content: I worked as a software developer for more than one year in Amazon.
-      #  content: |
-      #    I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        info:
+          enable: true
+          content: I am working as IT Support while being an Apprentice for NEC Software Solutions (NECSWS).
+        content: |
+          I am currently working as IT Support at [NECSWS](https://www.necsws.com/) in Hartlepool, GB. I work with the Local Council and UK Goverment to provide support for IT Systems ran in the Contract between NEC and themselves.
 #
  #         - Lead backend developer for a product.
   #        - Created a frontend design for a product.
@@ -195,11 +195,23 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: "Modern Apprentice @ NECSWS"
+        school:
+          name: "Hartlepool College of Further Education, Hartlepool"
+          url: "https://www.hartlepoolfe.ac.uk/"
+        date: "2023 - present"
+        GPA: "Pending"
+        content: |-
+          Specifications unknown as of right now
+        featuredLink:
+          enable: false
+          name: "My academic record"
+          url: "https://example.com"
       - title: "BTEC L3 Extended Diploma in Information Technology"
         school:
           name: "Hartlepool College of Further Education, Hartlepool"
           url: "https://www.hartlepoolfe.ac.uk/"
-        date: "2021 - present"
+        date: "2021 - 2023"
         GPA: "Overall Pass"
         content: |-
           Units
