@@ -1,6 +1,3 @@
-baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
 baseURL: "https://portfolio.kitch.blog"
 languageCode: "en-us"
 title: "Nathan's Portfolio"
